@@ -1,0 +1,9 @@
+.buttonModule {
+    background-color: rgb(47, 141, 223);
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+}
