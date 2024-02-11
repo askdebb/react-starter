@@ -2,7 +2,7 @@ import List from "./List.jsx"
 import ListObject from "./ListObject.jsx"
 import ListObjectSort from "./ListObjectSort.jsx"
 import ListObjectFilter from "./ListObjectFilter.jsx"
-import ListFilterMachine from "./ListFilterMachine.jsx"
+
 
 
 function App() {
@@ -27,10 +27,6 @@ function App() {
       <div>
         <h2>List Object Array with Filter</h2>
         <ListObjectFilter />
-      </div>
-      <div>
-        <h2>List Object Array with Filter</h2>
-        <ListFilterMachine />
       </div>
     </>
   )
