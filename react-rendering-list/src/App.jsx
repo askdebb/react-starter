@@ -2,7 +2,7 @@ import List from "./List.jsx"
 import ListObject from "./ListObject.jsx"
 import ListObjectSort from "./ListObjectSort.jsx"
 import ListObjectFilter from "./ListObjectFilter.jsx"
-
+import ListObjectProps from "./List/ListObjectProps.jsx"
 
 
 function App() {
@@ -27,6 +27,11 @@ function App() {
       <div>
         <h2>List Object Array with Filter</h2>
         <ListObjectFilter />
+      </div>
+
+      <div>
+        <h2>List Object Array with Filter (Tenants)</h2>
+        <ListObjectProps />
       </div>
     </>
   )

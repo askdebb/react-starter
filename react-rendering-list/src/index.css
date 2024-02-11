@@ -3,7 +3,7 @@ ol {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid rgb(173, 170, 170);
     border-radius: 5px;
@@ -11,16 +11,20 @@ ol {
 }
 
 ol li {
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-self: space-around;
     align-items: center;
     background-color: #e9a3a3;
     border: 1px solid black;
-    max-width:60% ;
+    max-width:70% ;
     padding: 10px 50px;
     margin: 5px 0;
     border-radius: 5px;
     border: none;
     box-shadow: 2px 2px 2px rgb(197, 185, 185);
+}
+
+h2, h3, li {
+    font-family: Arial, Helvetica, sans-serif;
 }
