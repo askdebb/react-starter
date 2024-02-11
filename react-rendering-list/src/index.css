@@ -1,0 +1,26 @@
+ol {
+    background-color: #ece1e1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(173, 170, 170);
+    border-radius: 5px;
+    max-width: 90%;
+}
+
+ol li {
+    text-align: center;
+    display: flex;
+    justify-self: space-around;
+    align-items: center;
+    background-color: #e9a3a3;
+    border: 1px solid black;
+    max-width:60% ;
+    padding: 10px 50px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(197, 185, 185);
+}
